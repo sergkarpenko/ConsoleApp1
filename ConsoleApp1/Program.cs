@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿ using ConsoleApp1;
+
+ static class Program
+{
+    private static void Main(string[] args)
+    {
+        var stud1 = new Student("John");
+        Console.WriteLine($"Hello, {stud1.Name}!");
+    }
+}
